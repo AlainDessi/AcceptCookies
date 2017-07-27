@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, sans-serif;
+}
+#cookie-choice {
+    position: relative;
+    width: calc(100% -55px);
+    padding: 8px 100px 8px 15px;
+    border: 1px solid #e0e0e0;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px #88888852;
+}
+#cookie-choice.close {
+    display: none;
+}
+#cookie-choice.open {
+    display: block;
+}
+#cookie-choice span.title {
+    padding-top: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #222;
+}
+#cookie-choice p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #444;
+}
+#cookie-choice button {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    padding: 4px 8px;
+    margin-top: -10px;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-top: 1px solid #d0d0d0;
+    border-left: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
+    border-bottom: 2px solid #999;
+    background-color: #e0e0e0;
+    color: #222;
+    cursor: pointer;
+}
+#cookie-choice button:hover {
+    background-color: #c0c0c0;
+    color: #fff;
+}
